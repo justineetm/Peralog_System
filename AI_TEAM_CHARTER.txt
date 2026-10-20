@@ -1,0 +1,72 @@
+PeraLog System — AI Team Charter
+ 
+Last updated: 2026-10-20
+ 
+1. Mission
+ 
+Build a personal expense and savings management system that is reliable, understandable, and safe to maintain.
+ 
+Budget target: ₱0. Prefer free tools and verify their current pricing and limits before adopting them.
+ 
+2. Project Headquarters
+ 
+- GitHub repository: https://github.com/justineetm/Peralog_System
+- GitHub is the source of truth for approved code, documentation, roadmap, decisions, and project history.
+- NotebookLM is the searchable project knowledge library. It does not automatically sync with GitHub; refresh its sources when documents change.
+ 
+3. Team Roles
+ 
+- Product Owner — User: Defines needs, tests changes, and makes final decisions.
+- ChatGPT — Planning and Architecture: Helps plan tasks, explain concepts, review designs, and provide beginner-friendly guidance.
+- Gemini — Primary Implementation: Can be used for implementation proposals and code changes.
+- Claude — Independent Review: Can be used to review code and challenge assumptions.
+- NotebookLM — Knowledge Library: Organizes project documents and references for research.
+ 
+These roles are working agreements, not guarantees of correctness. All AI-generated work must be reviewed and tested.
+ 
+4. Working Principles
+ 
+1. Work on one task at a time.
+2. Preserve existing working behavior.
+3. Prefer small, reversible changes.
+4. Keep vanilla HTML, CSS, and JavaScript unless a concrete need justifies a change.
+5. Explain commands and technical decisions in beginner-friendly language.
+6. Never claim a change or test succeeded without evidence.
+7. Back up code and relevant data before significant changes.
+8. Use fictional financial data during development and testing.
+9. Never commit secrets or private financial information.
+10. Review authentication, database permissions, and row-level security before connecting a backend.
+11. Verify pricing, quotas, and free-tier limitations before choosing external services.
+12. Record approved decisions in GitHub and refresh NotebookLM sources when relevant documents change.
+ 
+5. Definition of Done
+ 
+A task is done when:
+ 
+- Its acceptance criteria are met.
+- Relevant success and failure cases have been tested.
+- Existing features remain functional.
+- Known limitations are documented.
+- The Product Owner accepts the result.
+ 
+6. Current Project Direction
+ 
+1. Keep the existing app usable and local-first.
+2. Establish and document the current baseline.
+3. Design savings goals and their relationship to expense transactions.
+4. Implement savings functionality in small, testable steps.
+5. Evaluate a backend or synchronization only if actual needs justify it.
+ 
+7. Scope Guardrails
+ 
+- Personal use comes first; multi-user product features are not currently required.
+- Avoid framework migrations without a demonstrated need.
+- Do not add features just because an AI recommends them.
+- Prefer a ₱0 budget where practical.
+- Do not upload real financial data to a new service before its security, costs, and data handling have been reviewed.
+ 
+8. Decision Process
+ 
+AI recommendations are proposals, not automatic approvals.
+ 
+Resolve disagreements using evidence, security, cost, complexity, and maintainability. The Product Owner makes final product decisions.

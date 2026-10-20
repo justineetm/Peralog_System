@@ -14,8 +14,8 @@ Budget target: ₱0, using free tools where practical.
 - [x] Test basic expense management and key existing features.
 - [x] Export a CSV backup and inspect its columns.
 - [x] Restore the CSV in a separate browser session.
-- [ ] Document the current architecture and known limitations.
-- [ ] Complete a baseline report and identify remaining tests.
+- [x] Document the current architecture and known limitations.
+- [x] Complete a baseline report and identify remaining tests.
  
 Exit criteria: Existing behavior and limitations are documented, and a safe rollback point is established before new features are implemented.
  
